@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // 제어됩니다. 어셈블리와 관련된 정보를 수정하려면
 // 이러한 특성 값을 변경하세요.
 [assembly: AssemblyTitle("PortScanner")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Simple and Powerful PortScanner")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("PortScanner")]
-[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyCopyright("© 2022 LSHworkspace. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
