@@ -82,6 +82,7 @@ namespace PortScanner
                     continue;
                 }
             }
+
             if(minPort != 65535)
             {
                 while (true)
@@ -107,6 +108,10 @@ namespace PortScanner
                         continue;
                     }
                 }
+            }
+            else
+            {
+                maxPort = 65535;
             }
 
             while (true)
