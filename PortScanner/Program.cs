@@ -135,7 +135,7 @@ namespace PortScanner
             }
             while(true)
             {
-                Console.WriteLine("\nSelected IPaddress : {0}\nSelected Scan from {1} to {2}\n minSelected Thread count : {3}\n", Ipaddress, minPort, maxPort, ThreadCounter);
+                Console.WriteLine("\nSelected IPaddress : {0}\nSelected Scan from {1} to {2}\nSelected Thread count : {3}\n", Ipaddress, minPort, maxPort, ThreadCounter);
                 Console.Write("Are you sure want to start? (Y/n) ");
                 try
                 {
@@ -170,7 +170,7 @@ namespace PortScanner
                 }
                 else
                 {
-                    savePath = (dataPath + @"\" + Ipaddress.ToString() + @" (" + fileI + @")" + ".log");
+                    savePath = (dataPath + @"\" + Ipaddress.ToString() + @"(" + fileI + @")" + ".log");
                 }
 
                 if (!File.Exists(savePath))
